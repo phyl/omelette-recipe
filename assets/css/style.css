@@ -4,12 +4,12 @@
 
 :root {
   --bg-color: hsl(330, 100%, 98%);
-  --text-color: hsl(30, 18%, 87%);
+  --bg-color: hsl(30, 18%, 87%);
   ---color: hsl(14, 45%, 36%);
   --heading-color: hsl(332, 51%, 32%);
   --container-color: hsl(0, 0%, 100%);
   --body-color: hsl(30, 54%, 90%);
-  --bg-color: hsl(30, 10%, 34%);
+  --text-color: hsl(30, 10%, 34%);
   --text-color: hsl(24, 5%, 18%);
 }
 
@@ -36,20 +36,56 @@ h3 {
 }
 
 .container {
+  /* You can use  background-color or background for the background color */
   background-color: var(--container-color);
   margin: 10% 25% 10% 25%;
   padding: 30px;
-  border-radius: 35px;
-  max-width: 45%;
+  border-radius: 20px;
+  max-width: 1440px;
 }
 
-.omelette {
-  border-radius: 35px;
+.omelette-img {
+  border-radius: 20px;
+  width: 100%;
 }
 
 .prep-time {
-  background-color: var(--body-color);
+  background: var(--body-color);
   padding: 5px 5px 5px 10px;
+  border-radius: 10px;
+}
+
+li::marker {
+  color: var(--heading-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders between cells collapse */
+}
+
+tr {
+  border-bottom: 1px solid var(--bg-color);
+  padding: 0;
+  margin: 0;
+}
+/* This works as well as long as the add border-collapse to the table
+td {
+  border-bottom: 1px solid var(--bg-color);
+  padding: 0;
+  margin: 0;
+}*/
+
+tr td:nth-child(2) {
+  color: var(--heading-color);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.attribution { 
+  margin-top: 10px;
 }
 
 .attribution a { 
