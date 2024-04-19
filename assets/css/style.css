@@ -3,14 +3,15 @@
 
 
 :root {
-  --bg-color: hsl(330, 100%, 98%);
-  --bg-color: hsl(30, 18%, 87%);
-  ---color: hsl(14, 45%, 36%);
+  --nutmeg: hsl(14, 45%, 36%);
   --heading-color: hsl(332, 51%, 32%);
   --container-color: hsl(0, 0%, 100%);
-  --body-color: hsl(30, 54%, 90%);
-  --text-color: hsl(30, 10%, 34%);
+  --body-color: hsl(330, 100%, 98%);
+  --bg-color: hsl(30, 54%, 90%);
+  --text2-color: hsl(30, 18%, 87%);
+  --light-gray-color: hsl(30, 10%, 34%);
   --text-color: hsl(24, 5%, 18%);
+
 }
 
 * {   /* asterisk means it's universally applied */
@@ -20,15 +21,23 @@
 
 
 body {
-  font-family: "Outfit Serif", serif;
+  font-family: "Young Serif", serif;
   font-weight: 400;
-  font-style: 16px;
+  font-size: 16px;
   color: var(--text-color);
   /* Every browser comes with it's own margins,  so it is good practice to set the body margin to 0 */
   margin: 0;
   overflow-x: hidden;
   background-color: var(--body-color);
+  word-wrap: break-word;
   
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: var(--container-color);
+    
+  }
 }
 
 h3 {
@@ -42,6 +51,15 @@ h3 {
   padding: 30px;
   border-radius: 20px;
   max-width: 1440px;
+}
+
+@media screen and (max-width: 600px)  {
+  .container {
+    margin: 1% 5% 0% 5%;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 1440px;
+  }
 }
 
 .omelette-img {
@@ -65,7 +83,7 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid var(--bg-color);
+  border-bottom: 1px solid var(--text-color);
   padding: 0;
   margin: 0;
 }
