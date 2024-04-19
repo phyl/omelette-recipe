@@ -37,7 +37,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-It was a great moment to do a recap on my HTML and CSS skills. There are things that I just took for granted and thought I knew them, only to find myself stuck and refering to Google for answers. For example; I wasn't sure of how to clear the gap between the bottom borders in the columns of the table. Another one was the CSS pseudo classes. I loved the challenge more than listening to a tutorial where all answers are provided in case you get stuck. I had to make my hands dirty and juggle my mind in order to come up with a solution. 
+It was a great moment to do a recap on my HTML and CSS skills. There are things that I just took for granted and thought I knew them, only to find myself stuck and refering to Google for answers. For example; I wasn't sure of how to clear the gap between the bottom borders in the columns of the table. Another one was the CSS pseudo classes. I loved the challenge more than listening to a tutorial where all answers are provided in case you get stuck. I had to make my hands dirty to come up with a solution. 
 
 ### Continued development
 
