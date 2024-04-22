@@ -87,12 +87,14 @@ tr {
   padding: 0;
   margin: 0;
 }
+
 /* This works as well as long as the add border-collapse to the table
 td {
   border-bottom: 1px solid var(--bg-color);
   padding: 0;
   margin: 0;
-}*/
+}
+*/
 
 tr td:nth-child(2) {
   color: var(--heading-color);
