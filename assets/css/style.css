@@ -28,7 +28,7 @@ body {
   /* Every browser comes with it's own margins,  so it is good practice to set the body margin to 0 */
   margin: 0;
   overflow-x: hidden;
-  background-color: var(--body-color);
+  background-color: var(--bg-color);
   word-wrap: break-word;
   
 }
@@ -40,7 +40,7 @@ body {
   }
 }
 
-h3 {
+h2 {
   color: var(--heading-color);
 }
 
@@ -68,7 +68,7 @@ h3 {
 }
 
 .prep-time {
-  background: var(--body-color);
+  background-color: var(--bg-color);
   padding: 5px 5px 5px 10px;
   border-radius: 10px;
 }
