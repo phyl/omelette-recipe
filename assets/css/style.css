@@ -68,7 +68,7 @@ h2 {
 }
 
 .prep-time {
-  background-color: var(--bg-color);
+  background-color: var(--body-color);
   padding: 5px 5px 5px 10px;
   border-radius: 10px;
 }
